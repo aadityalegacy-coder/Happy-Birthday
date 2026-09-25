@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Navbar } from './components/Navbar';
 import { PetalCanvas } from './components/PetalCanvas';
 import { HeroLateWish } from './components/HeroLateWish';
@@ -51,6 +52,7 @@ export default function App() {
         <FinalLetter />
       </main>
 
+      <SpeedInsights />
     </div>
   );
 }
